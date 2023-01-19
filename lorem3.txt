@@ -1,0 +1,2 @@
+teste de escrita usando System.in
+Vamos tentar ver se está funcionando.

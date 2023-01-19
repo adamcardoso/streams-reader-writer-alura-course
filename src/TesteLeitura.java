@@ -2,7 +2,6 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.Objects;
-import java.util.stream.Stream;
 
 public class TesteLeitura {
     public static void main(String[] args) {
@@ -15,7 +14,7 @@ public class TesteLeitura {
             String linha = br.readLine();
             System.out.println();
 
-            
+
             while (Objects.nonNull(linha)) {
                 System.out.println(linha);
                 linha = br.readLine();
