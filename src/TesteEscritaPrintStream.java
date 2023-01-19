@@ -1,7 +1,7 @@
 import java.io.PrintStream;
 import java.io.PrintWriter;
 
-public class TesteEscritaMaisSimples {
+public class TesteEscritaPrintStream {
     public static void main(String[] args) {
         try {
             PrintStream ps = new PrintStream("lorem5.txt");
